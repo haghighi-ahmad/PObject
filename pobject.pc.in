@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: Defines common object based on XParam and XISetParam featuers
+URL: http://www.pdnsoft.com
+Requires: pparam
+Version: @PACKAGE_VERSION@
+Libs: -lpobject
+Cflags: -I${includedir}/pvm
